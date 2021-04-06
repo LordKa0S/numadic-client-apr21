@@ -14,8 +14,7 @@ const MapChildren = (props: { path: LatLngTuple[] }) => {
     const lineRef = createRef<any>();
     useEffect(() => {
         if (Object.keys(lineRef.current?._bounds).length > 0) {
-            console.log(lineRef.current._bounds.pad(0.5));
-            map.flyToBounds((lineRef.current as any)._bounds);
+            map.flyToBounds(lineRef.current._bounds);
         }
     }, [lineRef, map, props.path]);
     return (
