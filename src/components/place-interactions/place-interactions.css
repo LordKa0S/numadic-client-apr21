@@ -1,0 +1,20 @@
+.place-interactions {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+.inputs {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.grid-container {
+    flex: auto;
+}
+
+.ag-header-cell-label {
+    justify-content: center;
+}

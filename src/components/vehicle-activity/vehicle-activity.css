@@ -1,0 +1,12 @@
+.vehicle-activity {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+.inputs {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
