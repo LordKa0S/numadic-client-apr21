@@ -4,7 +4,7 @@ import Home from './components/home/home';
 import PlaceInteractions from './components/place-interactions/place-interactions';
 import VehicleActivity from './components/vehicle-activity/vehicle-activity';
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className="App">
       <BrowserRouter>

@@ -11,7 +11,7 @@ import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
 import './place-interactions.css';
 
-const PlaceInteractions = () => {
+const PlaceInteractions = (): JSX.Element => {
     const [, setGridApi] = useState(null as unknown as GridApi);
     const [rowData, setRowData] = useState([]);
     const [startDate, setStartDate] = useState(new Date());

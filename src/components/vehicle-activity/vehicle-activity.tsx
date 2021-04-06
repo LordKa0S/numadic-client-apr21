@@ -11,6 +11,7 @@ import './vehicle-activity.css';
 
 const MapChildren = (props: { path: LatLngTuple[] }) => {
     const map = useMap();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const lineRef = createRef<any>();
     useEffect(() => {
         if (Object.keys(lineRef.current?._bounds).length > 0) {
@@ -46,7 +47,7 @@ const MapChildren = (props: { path: LatLngTuple[] }) => {
     );
 }
 
-const VehicleActivity = () => {
+const VehicleActivity = (): JSX.Element => {
     const [license, setLicense] = useState('');
     const [startDate, setStartDate] = useState(new Date());
     const [endDate, setEndDate] = useState(new Date());
