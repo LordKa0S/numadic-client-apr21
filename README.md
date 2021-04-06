@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## Specify the API endpoint base in src/conf/server.ts
 
-Specify the API endpoint base in src/conf/server.ts
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
