@@ -1,5 +1,7 @@
 ## Specify the API endpoint base in src/conf/server.ts
 
+See [Server Implementation](https://github.com/LordKa0S/numadic-server).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
