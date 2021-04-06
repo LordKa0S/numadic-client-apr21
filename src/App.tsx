@@ -7,7 +7,7 @@ import VehicleActivity from './components/vehicle-activity/vehicle-activity';
 function App(): JSX.Element {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/numadic-client">
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
