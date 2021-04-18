@@ -49,7 +49,7 @@ const MapChildren = (props: { path: LatLngTuple[] }) => {
 
 const VehicleActivity = (): JSX.Element => {
     const [license, setLicense] = useState('ADTEST1');
-    const [startDate, setStartDate] = useState(new Date(2018, 08, 09));
+    const [startDate, setStartDate] = useState(new Date(2018, 8, 9));
     const [endDate, setEndDate] = useState(new Date());
     const [path, setPath] = useState([] as LatLngTuple[]);
 

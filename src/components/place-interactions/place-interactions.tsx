@@ -14,7 +14,7 @@ import './place-interactions.css';
 const PlaceInteractions = (): JSX.Element => {
     const [, setGridApi] = useState(null as unknown as GridApi);
     const [rowData, setRowData] = useState([]);
-    const [startDate, setStartDate] = useState(new Date(2018, 08, 09));
+    const [startDate, setStartDate] = useState(new Date(2018, 8, 9));
     const [endDate, setEndDate] = useState(new Date());
 
     const onGridReady = (params: GridReadyEvent) => {
