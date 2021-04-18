@@ -1,1 +1,1 @@
-export const address = 'http://localhost:3000/';
+export const address = 'https://numadic-apr21.herokuapp.com/';
